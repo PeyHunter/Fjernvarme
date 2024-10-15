@@ -15,7 +15,6 @@ public class Forbruger
 
     public Forbruger()
     {
-
     }
 
     public Forbruger(String n, int mNr, int mMax)

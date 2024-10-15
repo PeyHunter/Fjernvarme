@@ -12,7 +12,7 @@ public class Main
         Forbruger   peter = new Forbruger("Peter", 67, 1000);
         Forbruger   iben = new Forbruger("Iben", 212, 1000);
 
-        Distrikt    tagensvej = new Distrikt("Tagensvej", (float) 12.5);
+       Distrikt    tagensvej = new Distrikt("Tagensvej", (float) 12.5);
 
         tagensvej.generereForbruger(20);
 

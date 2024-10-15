@@ -111,7 +111,6 @@ public class Distrikt
                 if(forbrugere.get(i).getNavn().contains(pigeNavne[j]))
                     antal++;
         return antal;
-
     }
 
 
@@ -130,6 +129,9 @@ public class Distrikt
                     System.out.println("Dublet: " + forbrugere.get(i).getNavn());
     }
 
+
+
+
     private void swap(int x, int y)
     {
         Forbruger f = new Forbruger();
@@ -145,6 +147,9 @@ public class Distrikt
                 if (forbrugere.get(j).getNavn().compareTo(forbrugere.get(j+1).getNavn()) > 0)
                     swap(j,j + 1);
     }
+
+
+
 
     public void udskrivForbrugere()
     {

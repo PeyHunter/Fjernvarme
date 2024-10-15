@@ -35,7 +35,7 @@ public class ForbrugerPersistens {
         String forbrugerFile = "forbrugerFile.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(forbrugerFile))) {
-            while ((line = br.readLine()) !j= null) {
+            while ((line = br.readLine()) != null) {
                 String[] forbrugerR = line.split(komma);
 
                 System.out.println("Navn: " + forbrugerR[0] + ", MålerNr: " + forbrugerR[1] + ", MaalerMax: " + forbrugerR[2]);
